@@ -28,14 +28,66 @@ section {
   display: block;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+/* File Complaint button */
+.button1 {
+  background-color: #0073bd;
+
+} /* Blue */
+/* Feedback */
+.button2 {
+  background-color: #0073bd;
+
+  
+} /* Blue */
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #054D7B;
+  color: white;
+  font-size: 45px;
+}
+
+img {
+  text-align: center;
+}
+
+
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-h1 {
-  font-size: 2em;
+
+h2 {
+  font-size: 45px;
   margin: 0.67em 0;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
+
+p {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;}
 
 /* Grouping content
    ========================================================================== */
@@ -811,7 +863,7 @@ legend {
 }
 
 .s003 {
-  min-height: 100vh;
+  min-height: 25vh;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
